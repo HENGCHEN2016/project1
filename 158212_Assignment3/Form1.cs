@@ -34,10 +34,17 @@ namespace _158212_Assignment3
         }
         private void F1toF2_button_Click(object sender, EventArgs e)
         {
+            if(countryLeft==""&&countryRight=="")
+            {
+                F1toF2_button.Enabled = false;
+            }
+             else
+            {
             Form2 form2 = new Form2(this.countryLeft, this.countryRight);
             form2.Show();
             form2.MatchPlayer();
             this.Hide();
+             }
         }
         private void T1_pictureBox_Click(object sender, EventArgs e)
         {

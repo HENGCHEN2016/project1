@@ -37,23 +37,23 @@ namespace _158212_Assignment3
             {
                 F2T1_pictureBox.Load("../../images/NZ.jpg");
             }
-            if (countryLeft == "USA")
+            else if (countryLeft == "USA")
             {
                 F2T1_pictureBox.Load("../../images/USA.jpg");
             }
-            if (countryLeft == "GB")
+            else if (countryLeft == "GB")
             {
                 F2T1_pictureBox.Load("../../images/GB.jpg");
             }
-            if (countryRight == "NZ")
+            else if (countryRight == "NZ")
             {
                 F2T2_pictureBox.Load("../../images/NZ.jpg");
             }
-            if (countryRight == "USA")
+            else if (countryRight == "USA")
             {
                 F2T2_pictureBox.Load("../../images/USA.jpg");
             }
-            if (countryRight == "GB")
+            else if (countryRight == "GB")
             {
                 F2T2_pictureBox.Load("../../images/GB.jpg");
             }
@@ -77,23 +77,23 @@ namespace _158212_Assignment3
             {
                 T1_comboBox.Items.AddRange(new object[] { "Nike Paul", "Adi Nasus", "James York" });
             }
-            if (countryLeft == "USA")
+            else if (countryLeft == "USA")
             {
                 T1_comboBox.Items.AddRange(new object[] { "Bill Hali", "Zak Vafolio", "Keny Lee" });
             }
-            if (countryLeft == "GB")
+            else if (countryLeft == "GB")
             {
                 T1_comboBox.Items.AddRange(new object[] { "William Ford", "Gate Sally", "Larry Johnson" });
             }
-            if (countryRight == "NZ")
+            else if (countryRight == "NZ")
             {
                 T2_comboBox.Items.AddRange(new object[] { "Nike Paul", "Adi Nasus", "James York" });
             }
-            if (countryRight == "USA")
+            else if (countryRight == "USA")
             {
                 T2_comboBox.Items.AddRange(new object[] { "Bill Hali", "Zak Vafolio", "Keny Lee" });
             }
-            if (countryRight == "GB")
+            else if (countryRight == "GB")
             {
                 T2_comboBox.Items.AddRange(new object[] { "William Ford", "Gate Sally", "Larry Johnson" });
             }
@@ -185,11 +185,11 @@ namespace _158212_Assignment3
             {
                 F2_richTextBox.Text += "Match is drawn.\n";
             }
-            if(t1_score>t2_score)
+            else if(t1_score>t2_score)
             {
                 F2_richTextBox.Text += "Winner is " + countryLeft + "\n";
             }
-            if(t1_score<t2_score)
+            else if(t1_score<t2_score)
             {
                 F2_richTextBox.Text += "Winner is " + countryRight + "\n";
             }

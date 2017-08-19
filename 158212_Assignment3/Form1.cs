@@ -34,7 +34,7 @@ namespace _158212_Assignment3
         }
         private void F1toF2_button_Click(object sender, EventArgs e)
         {
-            if(countryLeft==""&&countryRight=="")
+            if(countryLeft==""|| countryRight=="")
             {
                 F1toF2_button.Enabled = false;
             }
